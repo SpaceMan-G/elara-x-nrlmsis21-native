@@ -1,1 +1,13 @@
-[build-system]\nrequires = ["setuptools>=68"]\nbuild-backend = "setuptools.build_meta"\n\n[project]\nname = "elara-x-nrlmsis-native"\nversion = "0.0.0.dev0"\ndescription = "Governance skeleton for a future native academic NRLMSIS 2.1 implementation"\nrequires-python = ">=3.10"\nauthors = [{name = "Giuseppe A. A. Joulianou"}]\n\n[tool.setuptools.packages.find]\nwhere = ["src"]\n
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elara-x-nrlmsis-native"
+version = "0.0.0.dev0"
+description = "Native Python NRLMSIS 2.1 component for Elara X with verified external parameter-resource handling"
+requires-python = ">=3.10"
+authors = [{name = "Giuseppe A. A. Joulianou"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
