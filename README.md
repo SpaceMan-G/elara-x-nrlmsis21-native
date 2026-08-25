@@ -47,3 +47,18 @@ not redistributed by this repository.
 The M01 independent audit conclusively classified the historical repository as NRLMSIS 2.1 at base commit `1ca8b3cf1a29ad6b0d3b328759ab9381e2e23774` and tree `77c2d58866be0498900f04d9774da3e4657f2ab4`. The eight scientific translation modules remain byte-identical to the accepted Elara X NRLMSIS 2.1 core.
 
 This is a development identity (`0.1.0.dev0`). Final paper-linked tags and releases are deferred until the complete atmospheric-model freeze.
+
+<!-- ELARA_X_M07_SCIENTIFIC_DOCS -->
+## Scientific guide and paper reproducibility
+
+The repository now includes a model-specific scientific guide covering the
+principal mathematics, inputs/outputs, calculation workflow, implementation
+mapping and validation context:
+
+- [`docs/SCIENTIFIC_MODEL_GUIDE.md`](docs/SCIENTIFIC_MODEL_GUIDE.md)
+- [`docs/PAPER_RESULT_PUBLICATION.md`](docs/PAPER_RESULT_PUBLICATION.md)
+- [`results/README.md`](results/README.md)
+
+Paper-linked outputs are accepted only through the publication-safe derived
+result policy in `RESULT_PUBLICATION_POLICY.json`.
+

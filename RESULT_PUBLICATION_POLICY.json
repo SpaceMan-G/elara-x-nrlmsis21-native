@@ -1,0 +1,27 @@
+{
+  "allowed_extensions": [
+    ".csv",
+    ".json",
+    ".png",
+    ".pdf",
+    ".svg",
+    ".txt",
+    ".md"
+  ],
+  "forbid_credentials_and_private_keys": true,
+  "forbid_external_only_model_resources": true,
+  "forbid_fortran_source": true,
+  "forbid_private_absolute_paths": true,
+  "forbid_symlinks": true,
+  "forbid_unapproved_raw_third_party_data": true,
+  "max_single_file_bytes": 50000000,
+  "model_key": "NRLMSIS_21",
+  "policy": "PUBLICATION_SAFE_DERIVED_OUTPUTS_ONLY",
+  "publication_root": "results/paper",
+  "repository": "SpaceMan-G/elara-x-nrlmsis21-native",
+  "required_generated_files": [
+    "RUN_MANIFEST.json",
+    "CHECKSUMS.sha256"
+  ],
+  "schema_version": 1
+}
