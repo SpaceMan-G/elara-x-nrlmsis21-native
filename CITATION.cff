@@ -1,1 +1,9 @@
-cff-version: 1.2.0\nmessage: "If you use this software, please cite it and the original NRLMSIS 2.1 model."\ntitle: Elara X NRLMSIS Native\ntype: software\nauthors:\n  - family-names: Joulianou\n    given-names: Giuseppe A. A.\nversion: 0.0.0.dev0\nlicense: other\n
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the original NRLMSIS 2.1 model."
+title: Elara X NRLMSIS 2.1 Native
+type: software
+authors:
+  - family-names: Joulianou
+    given-names: Giuseppe A. A.
+version: 0.1.0.dev0
+license: other

@@ -1,1 +1,3 @@
-# Tests\n\nNo scientific implementation exists yet. Future phases add equivalence tests.\n
+# Tests
+
+No scientific implementation exists yet. Future phases add equivalence tests.

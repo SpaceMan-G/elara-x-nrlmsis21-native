@@ -2,9 +2,10 @@
   "created_utc": "2026-08-21T13:43:46.236401+00:00",
   "external_publication_performed": 0,
   "network_actions_performed": 0,
-  "programme": "ELARA_X_ATMO_M01_4",
-  "scientific_translation_present": false,
-  "source_component_path": "/Users/giuseppejoulianou/Downloads/ELARA_X_PACKAGE_WORKSPACE/00_ACTIVE_ATMO_M01/public_components/elara-x-nrlmsis-native",
+  "programme": "ELARA_X_ATMO_REPO_M02_NRLMSIS_WAVE1",
+  "repository_identity": "SpaceMan-G/elara-x-nrlmsis21-native",
+  "scientific_translation_present": true,
+  "source_component_path": "PRIVATE_ELARA_X_BOUNDARY_NOT_REDISTRIBUTED",
   "source_component_tree_hashes": {
     "CHANGE_NOTICES.md": "5270c09ab5f0ef008236d8f03c74a7967e39973db3a691c5e8b30075944f66cf",
     "COMPONENT_MANIFEST.json": "955b1edd9a34b2f188282db4410c252ccea9e5d1bd7c8b1e8580382480117dd1",
@@ -52,6 +53,7 @@
     "src/elara_x_nrlmsis/utilities.py": "2dee95f5631cbf59b945a4df8ab4dc981fd483206f1ff94984f258a2f97f43c8",
     "tests/README.md": "094d54bd540443fa05e1b2164b3d74b7c7e8e2a4113653bf8195bd0022ea4afa"
   },
-  "status": "LOCAL_PUBLICATION_STAGING_PREPARED",
+  "status": "M02_IDENTITY_REPAIR_STAGED",
+  "updated_utc": "2026-08-25T19:32:19.258686+00:00",
   "version": "1.0.0"
 }

@@ -1,1 +1,14 @@
-# Change Notices\n\n## 2026-08-21 - ATMO-M01.3\n\n- Created public-component skeleton.\n- No scientific equations translated.\n- Copied exact NRLMSIS 2.1 licence from frozen authority.\n- Bound component to ATMO-M01.2 lock `1f347d2e9ba726b49104211787e429ffa1ed6acf5768153996b18db93d47d60e`.\n
+# Change Notices
+
+## 2026-08-25 — Repository identity consolidation
+
+- Confirmed by the independent M01 audit that this repository is NRLMSIS 2.1.
+- Renamed the distribution/repository identity to `elara-x-nrlmsis21-native`.
+- Corrected skeleton-era provenance and translation-status metadata.
+- Preserved the eight frozen scientific module byte identities.
+- Kept `msis21.parm`, official Fortran, and official oracle payloads external.
+- Set development version `0.1.0.dev0`; no final tag or release was created.
+
+## 2026-08-21 — Controlled translation programme
+
+The repository history records the staged translation, validation, resource resolver, API assembly, and tests for the NRLMSIS 2.1 native component.

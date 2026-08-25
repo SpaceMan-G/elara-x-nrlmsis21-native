@@ -2,6 +2,7 @@
   "authority_lock_sha256": "1f347d2e9ba726b49104211787e429ffa1ed6acf5768153996b18db93d47d60e",
   "official_archive_sha256": "4b2ef2e9989681d3d5c1eade0c7f91f2050e839b4492d56ba9de21231d635fd8",
   "official_reference_output_sha256": "59210a442f175b6b3f9e15034856989eea46d54ddb4fe3057a289a77512b7ce3",
+  "repository_identity": "NRLMSIS_2_1",
   "source_mapping": {
     "msis21.parm": "data/msis21.parm",
     "msis_calc.F90": "model.py",
@@ -14,14 +15,15 @@
     "msis_utils.F90": "utilities.py"
   },
   "translation_status": {
-    "msis21.parm": "NOT_STARTED_PLACEHOLDER_ONLY",
-    "msis_calc.F90": "NOT_STARTED_PLACEHOLDER_ONLY",
-    "msis_constants.F90": "NOT_STARTED_PLACEHOLDER_ONLY",
-    "msis_dfn.F90": "NOT_STARTED_PLACEHOLDER_ONLY",
-    "msis_gfn.F90": "NOT_STARTED_PLACEHOLDER_ONLY",
-    "msis_gtd8d.F90": "NOT_STARTED_PLACEHOLDER_ONLY",
-    "msis_init.F90": "NOT_STARTED_PLACEHOLDER_ONLY",
-    "msis_tfn.F90": "NOT_STARTED_PLACEHOLDER_ONLY",
-    "msis_utils.F90": "NOT_STARTED_PLACEHOLDER_ONLY"
-  }
+    "msis21.parm": "EXTERNAL_VERIFIED_RESOURCE_NOT_REDISTRIBUTED",
+    "msis_calc.F90": "TRANSLATED_VALIDATED_PUBLISHED",
+    "msis_constants.F90": "TRANSLATED_VALIDATED_PUBLISHED",
+    "msis_dfn.F90": "TRANSLATED_VALIDATED_PUBLISHED",
+    "msis_gfn.F90": "TRANSLATED_VALIDATED_PUBLISHED",
+    "msis_gtd8d.F90": "TRANSLATED_VALIDATED_PUBLISHED",
+    "msis_init.F90": "TRANSLATED_VALIDATED_PUBLISHED",
+    "msis_tfn.F90": "TRANSLATED_VALIDATED_PUBLISHED",
+    "msis_utils.F90": "TRANSLATED_VALIDATED_PUBLISHED"
+  },
+  "updated_by": "ELARA_X_ATMO_REPO_M02_NRLMSIS_WAVE1"
 }

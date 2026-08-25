@@ -1,10 +1,14 @@
 {
   "accepted_rasti_mutated": false,
-  "component": "elara-x-nrlmsis-native",
+  "component": "elara-x-nrlmsis21-native",
   "created_utc": "2026-08-21T13:34:55.070434+00:00",
   "elara_x_project_mutated": false,
+  "m01_frozen_head": "1ca8b3cf1a29ad6b0d3b328759ab9381e2e23774",
+  "m01_frozen_tree": "77c2d58866be0498900f04d9774da3e4657f2ab4",
   "parent_lock_sha256": "1f347d2e9ba726b49104211787e429ffa1ed6acf5768153996b18db93d47d60e",
-  "programme": "ELARA_X_ATMO_M01_3",
-  "scientific_translation_present": false,
-  "version": "1.0.2"
+  "programme": "ELARA_X_ATMO_REPO_M02_NRLMSIS_WAVE1",
+  "scientific_translation_present": true,
+  "status": "NRLMSIS21_NATIVE_TRANSLATION_VALIDATED_REPOSITORY_IDENTITY_REPAIRED",
+  "updated_utc": "2026-08-25T19:32:19.257399+00:00",
+  "version": "0.1.0.dev0"
 }

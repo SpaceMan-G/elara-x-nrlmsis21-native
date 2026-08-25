@@ -1,4 +1,4 @@
-# Elara X NRLMSIS Native
+# Elara X NRLMSIS 2.1 Native
 
 Native Python NRLMSIS 2.1 component developed under the controlled Elara X
 atmospheric-model expansion programme.
@@ -39,5 +39,11 @@ scientific and compatibility use.
 ## Licence
 
 Use of the NRLMSIS-derived component is governed by
-`LICENSE_NRLMSIS21.txt`. The official Fortran source and parameter payload are
+`nrlmsis2.1_license.txt`. The official Fortran source and parameter payload are
 not redistributed by this repository.
+
+## Repository identity
+
+The M01 independent audit conclusively classified the historical repository as NRLMSIS 2.1 at base commit `1ca8b3cf1a29ad6b0d3b328759ab9381e2e23774` and tree `77c2d58866be0498900f04d9774da3e4657f2ab4`. The eight scientific translation modules remain byte-identical to the accepted Elara X NRLMSIS 2.1 core.
+
+This is a development identity (`0.1.0.dev0`). Final paper-linked tags and releases are deferred until the complete atmospheric-model freeze.
