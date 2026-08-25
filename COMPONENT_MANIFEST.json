@@ -50,9 +50,19 @@
     "documentation": {
       "RESULT_PUBLICATION_POLICY.json": "f08e46112c44bc3c549e0a430b681738775451ad289628e065426ef6552ca204",
       "docs/PAPER_RESULT_PUBLICATION.md": "318d25e2683eb06024eaa89f8f52ba4ea46fa642355a5aabc76ea96886f86fa6",
-      "docs/SCIENTIFIC_MODEL_GUIDE.md": "6299fcc607b1e065c680b91822dd50ab21c02594ac01c3a0b8f7a26856ab51bd",
+      "docs/SCIENTIFIC_MODEL_GUIDE.md": "ae0615aa089142e9776a1d8349746d04a3acb5c7b5f64506faa494ac5b6f1147",
       "results/README.md": "f391e6fcf516a51a987fab87700dcfcfacf6bf4eab276c4b8d09043abd7eeb13"
     },
+    "model": "NRLMSIS_21",
+    "schema_version": 1,
+    "scientific_source_changed": false
+  },
+  "m07a_github_math_rendering_hotfix": {
+    "display_math_syntax": "GITHUB_FENCED_MATH",
+    "github_mathjax_compatible_contract": true,
+    "guide_new_sha256": "ae0615aa089142e9776a1d8349746d04a3acb5c7b5f64506faa494ac5b6f1147",
+    "guide_old_sha256": "6299fcc607b1e065c680b91822dd50ab21c02594ac01c3a0b8f7a26856ab51bd",
+    "inline_math_syntax": "GITHUB_DOLLAR_DELIMITERS",
     "model": "NRLMSIS_21",
     "schema_version": 1,
     "scientific_source_changed": false

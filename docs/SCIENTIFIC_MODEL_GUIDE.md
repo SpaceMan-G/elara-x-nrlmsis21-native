@@ -36,47 +36,47 @@ composition of baseline vertical profiles and fitted perturbation functions.
 
 A useful structural representation is
 
-\[
+```math
 X = X_0 + \sum_j c_j G_j(d,t,\phi,\lambda,F,\bar F,A_p),
-\]
+```
 
-where \(X\) may represent a temperature or log-density parameter, \(X_0\) is a
-baseline term, \(c_j\) are model coefficients, and \(G_j\) contain the solar,
+where $X$ may represent a temperature or log-density parameter, $X_0$ is a
+baseline term, $c_j$ are model coefficients, and $G_j$ contain the solar,
 geomagnetic, seasonal, latitude, diurnal and semidiurnal dependencies.
 
 Above the lower thermosphere, a Bates-like temperature profile is used
 conceptually:
 
-\[
+```math
 T(z) = T_\infty -
 \left(T_\infty-T_\ell\right)
 \exp[-s\,\xi(z)],
-\]
+```
 
-where \(T_\infty\) is exospheric temperature, \(T_\ell\) is a lower-boundary
-temperature, \(s\) is a fitted gradient parameter, and \(\xi\) is a
+where $T_\infty$ is exospheric temperature, $T_\ell$ is a lower-boundary
+temperature, $s$ is a fitted gradient parameter, and $\xi$ is a
 height/geopotential-like coordinate.
 
-For a constituent \(i\), diffusive equilibrium has the form
+For a constituent $i$, diffusive equilibrium has the form
 
-\[
+```math
 \frac{d n_i}{dz}
 =
 -n_i\frac{m_i g}{kT}
 -
 (1+\alpha_i)\frac{n_i}{T}\frac{dT}{dz},
-\]
+```
 
 which integrates to the familiar temperature-ratio and hydrostatic exponential
-terms used by the density routines. \(m_i\) is molecular/atomic mass,
-\(\alpha_i\) is the thermal-diffusion factor, and \(k\) is Boltzmann's
+terms used by the density routines. $m_i$ is molecular/atomic mass,
+$\alpha_i$ is the thermal-diffusion factor, and $k$ is Boltzmann's
 constant.
 
 The aggregate mass density is formed from constituent number densities:
 
-\[
+```math
 \rho = \sum_i m_i n_i.
-\]
+```
 
 NRLMSIS 2.1 includes the model's accepted nitric-oxide behaviour in the
 2.1 state. Exact constituent inclusion follows the public implementation and
