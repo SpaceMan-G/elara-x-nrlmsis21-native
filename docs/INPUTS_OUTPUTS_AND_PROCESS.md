@@ -31,7 +31,7 @@ The exact argument names, units, valid ranges and optional modes are defined by 
 
 ## Time-series use
 
-For a trajectory with states $\{(t_k,\mathbf{r}_k)\}_{k=1}^N$, evaluate the model at each authoritative epoch/position:
+For a trajectory with states $`\{(t_k,\mathbf{r}_k)\}_{k=1}^N`$, evaluate the model at each authoritative epoch/position:
 
 ```math
 \rho_k =
@@ -43,7 +43,7 @@ A daily product is then derived from the valid pointwise evaluations; it is not 
 
 ## Arithmetic daily mean
 
-For a UTC day with $N_d$ valid samples,
+For a UTC day with $`N_d`$ valid samples,
 
 ```math
 \bar{\rho}_d =

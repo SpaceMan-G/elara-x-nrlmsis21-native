@@ -9,4 +9,4 @@ This directory provides a structured explanation of the accepted public implemen
 - [Validation and reproducibility](VALIDATION_AND_REPRODUCIBILITY.md)
 - [Provenance and references](PROVENANCE.md)
 
-All equations use GitHub-native MathJax delimiters: inline mathematics uses `$...$`; display mathematics uses GitHub fenced `math` blocks.
+All equations use GitHub-native MathJax delimiters: inline mathematics uses GitHub's robust `$`backtick...backtick`$` form; display mathematics uses fenced `math` blocks.

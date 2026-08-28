@@ -64,4 +64,4 @@ C_D
 v_{\mathrm{rel}}^2,
 ```
 
-the atmospheric repository supplies $\rho$. The spacecraft ballistic parameters $C_D$, $A/m$ and the relative-flow velocity are external inputs and should not be attributed to the atmospheric model.
+the atmospheric repository supplies $`\rho`$. The spacecraft ballistic parameters $`C_D`$, $`A/m`$ and the relative-flow velocity are external inputs and should not be attributed to the atmospheric model.

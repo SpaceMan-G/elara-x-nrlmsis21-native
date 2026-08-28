@@ -46,7 +46,7 @@ These are comparison metrics, not automatic declarations that either source is d
 
 ## Coverage-aware daily validation
 
-A complete-day statistic and an available-sample statistic must not be silently conflated. Store $N_d$ and, where a nominal cadence is known, the coverage fraction
+A complete-day statistic and an available-sample statistic must not be silently conflated. Store $`N_d`$ and, where a nominal cadence is known, the coverage fraction
 
 ```math
 C_d = \frac{N_d}{N_{\mathrm{expected},d}}.
