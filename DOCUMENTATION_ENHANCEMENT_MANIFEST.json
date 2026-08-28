@@ -1,0 +1,21 @@
+{
+  "documentation_files": {
+    "docs/INPUTS_OUTPUTS_AND_PROCESS.md": "75998a956050fbbd380fb00c5c03a800064aef9f462fc23e2467585d8d477635",
+    "docs/MODEL_MATHEMATICS.md": "f9decf93d9186acb0edd4fe064b1cfa1dba05abda40a112633e3b5981df95a55",
+    "docs/PHYSICAL_MODEL_AND_PROCESS.md": "30153389054392852694795ccbc5243a511babb996e0a0c33e1945f221670266",
+    "docs/PROVENANCE.md": "6071f2298cae33a50729ad1afcfc6fea847378555594707680f559a6d9acd045",
+    "docs/README.md": "1a8bfb53e5460ff06993bf23daaa6cba42cac592661f006afb8d6a627621284d",
+    "docs/VALIDATION_AND_REPRODUCIBILITY.md": "e0c76314c244eb6a65006c09a1a3d3c391524ccbb23e62398fda81d502af9304",
+    "docs/WORKED_WORKFLOW.md": "1d110b84f7e2aff93910485f4c06947985820bdbb7852d3f1153fad90739f5c7"
+  },
+  "enhancement_scope": "documentation_and_github_math_rendering_only",
+  "licence_modified": false,
+  "mathjax_contract": "GitHub native $...$ and $$...$$ delimiters",
+  "model_resources_modified": false,
+  "parent_commit": "00160d8e397312a7675d6a4079a05bce1fd274fd",
+  "parent_tree": "f6bfd594b90a8c59ac25dc063a1581b2904cd3c7",
+  "readme_sha256": "4cec3ffbb694f13617b0c33e4d651f9f7e32b1d97c2ea783a2d2eeb946a35138",
+  "repository": "SpaceMan-G/elara-x-nrlmsis21-native",
+  "schema": "ELARA_X_ATMO_REPO_E01_DOCUMENTATION_ENHANCEMENT_V1",
+  "scientific_source_modified": false
+}
