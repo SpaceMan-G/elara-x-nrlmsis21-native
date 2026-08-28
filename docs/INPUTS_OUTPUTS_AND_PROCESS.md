@@ -33,11 +33,11 @@ The exact argument names, units, valid ranges and optional modes are defined by 
 
 For a trajectory with states $\{(t_k,\mathbf{r}_k)\}_{k=1}^N$, evaluate the model at each authoritative epoch/position:
 
-$$
+```math
 \rho_k =
 \mathcal{M}_\rho
 \left(t_k,\mathbf{r}_k,\mathbf{s}_k\right).
-$$
+```
 
 A daily product is then derived from the valid pointwise evaluations; it is not a different atmospheric model.
 
@@ -45,10 +45,10 @@ A daily product is then derived from the valid pointwise evaluations; it is not 
 
 For a UTC day with $N_d$ valid samples,
 
-$$
+```math
 \bar{\rho}_d =
 \frac{1}{N_d}
 \sum_{k=1}^{N_d} \rho_k.
-$$
+```
 
 Coverage metadata should accompany the mean whenever the underlying trajectory is incomplete.

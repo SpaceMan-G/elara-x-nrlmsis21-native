@@ -30,17 +30,17 @@ The repository's existing tests remain part of the acceptance boundary. This doc
 
 When comparing with an external reference, report the reference provenance and sampling coverage. A useful signed relative difference is
 
-$$
+```math
 \delta_\rho =
 \frac{\rho_{\mathrm{model}}-\rho_{\mathrm{ref}}}
 {\rho_{\mathrm{ref}}}.
-$$
+```
 
 The corresponding percentage is
 
-$$
+```math
 100\,\delta_\rho.
-$$
+```
 
 These are comparison metrics, not automatic declarations that either source is defective.
 
@@ -48,9 +48,9 @@ These are comparison metrics, not automatic declarations that either source is d
 
 A complete-day statistic and an available-sample statistic must not be silently conflated. Store $N_d$ and, where a nominal cadence is known, the coverage fraction
 
-$$
+```math
 C_d = \frac{N_d}{N_{\mathrm{expected},d}}.
-$$
+```
 
 ## Accepted Elara X lineage
 

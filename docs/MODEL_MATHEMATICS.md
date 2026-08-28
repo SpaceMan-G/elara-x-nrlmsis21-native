@@ -10,12 +10,12 @@ The equations below explain the physical and mathematical structure of the model
 
 A thermospheric empirical model can be represented schematically as a mapping
 
-$$
+```math
 \mathcal{M}:
 (t,\mathbf{r},\mathbf{s})
 \longrightarrow
 (T,\rho,\mathbf{n}),
-$$
+```
 
 where $t$ is epoch, $\mathbf{r}$ is position, $\mathbf{s}$ contains the required space-weather drivers, $T$ is temperature, $\rho$ is total mass density and $\mathbf{n}$ denotes constituent densities where provided.
 
@@ -24,10 +24,10 @@ where $t$ is epoch, $\mathbf{r}$ is position, $\mathbf{s}$ contains the required
 
 A useful representation of the upper-atmosphere temperature branch is the Bates-type form
 
-$$
+```math
 T(z) = T_\infty - \left(T_\infty - T_\ell\right)
 \exp\!\left[-s\left(z-z_\ell\right)\right],
-$$
+```
 
 where $T_\infty$ is exospheric temperature, $T_\ell$ is the temperature at a lower reference level, and $s$ controls the vertical temperature gradient.
 
@@ -37,17 +37,17 @@ The precise accepted implementation contains the fitted model basis and transiti
 
 For a constituent $i$, hydrostatic balance can be written as
 
-$$
+```math
 \frac{dp_i}{dz} = -\rho_i g,
-$$
+```
 
 with
 
-$$
+```math
 p_i = n_i k_B T,
 \qquad
 \rho_i = m_i n_i.
-$$
+```
 
 Above the mixed lower thermosphere, the constituent profiles approach species-dependent diffusive behaviour; lower down, the model transitions toward mixed-atmosphere behaviour using the formulation encoded in the accepted scientific implementation.
 
@@ -55,9 +55,9 @@ Above the mixed lower thermosphere, the constituent profiles approach species-de
 
 Total mass density is obtained from the constituent number densities:
 
-$$
+```math
 \rho = \sum_i m_i n_i.
-$$
+```
 
 The species set and any model-version-specific terms are defined by the accepted implementation.
 
@@ -65,11 +65,11 @@ The species set and any model-version-specific terms are defined by the accepted
 
 NRLMSIS 2.1 retains the NRLMSIS 2.0 temperature and non-NO species formulation and adds a fitted nitric-oxide vertical profile. A schematic representation is
 
-$$
+```math
 n_{\mathrm{NO}}(z,\mathbf{x}) =
 n_{\mathrm{NO},0}(z)
 \exp\!\left(G_{\mathrm{NO}}(\mathbf{x})\right),
-$$
+```
 
 where $\mathbf{x}$ represents the environmental variables used by the NO fit. The public documentation should be read together with the accepted source and the NRLMSIS 2.1 scientific paper; this schematic equation is not a substitute for the fitted coefficient implementation.
 

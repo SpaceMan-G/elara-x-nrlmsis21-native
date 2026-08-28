@@ -33,35 +33,35 @@ Record the Git commit, input epoch/position, driver values/source, and any exter
 
 Given authoritative trajectory samples
 
-$$
+```math
 (t_1,\mathbf{r}_1),\ldots,(t_N,\mathbf{r}_N),
-$$
+```
 
 evaluate the model independently at every sample to obtain
 
-$$
+```math
 \rho_1,\ldots,\rho_N.
-$$
+```
 
 Then aggregate only after pointwise evaluation. For a daily mean,
 
-$$
+```math
 \bar{\rho}_d =
 \frac{1}{N_d}
 \sum_{k=1}^{N_d}\rho_k.
-$$
+```
 
 ## Example C: interpretation for drag
 
 If a downstream drag analysis uses
 
-$$
+```math
 a_D =
 \frac{1}{2}
 \rho
 C_D
 \frac{A}{m}
 v_{\mathrm{rel}}^2,
-$$
+```
 
 the atmospheric repository supplies $\rho$. The spacecraft ballistic parameters $C_D$, $A/m$ and the relative-flow velocity are external inputs and should not be attributed to the atmospheric model.
